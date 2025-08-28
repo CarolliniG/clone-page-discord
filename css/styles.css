@@ -1,5 +1,5 @@
 body {
-  font-family: "Luckiest Guy", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -8,27 +8,192 @@ body {
 header {
   display: flex;
   background-image: url("../assets/Header Background (2).png");
-  flex-direction: column;
+  height: 459px;
+  background-size: cover;
+  background-position: center;
 }
 
 .header-content {
-  margin: 0px 40px 15px 40px;
+  margin: 35px 30px;
 }
 
-p {
-  font-family: "Open Sans", sans-serif;
+.header-content h1 {
+  font-family: "Luckiest Guy", sans-serif;
+  font-size: 32px;
+  justify-content: flex-start;
+  line-height: 0.9;
+  letter-spacing: 3px;
+}
+.header-content p {
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 button {
   border-radius: 28px;
-  margin: 0px 40px 15px 40px;
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
 
 button.btn-download {
+  background-color: #fff;
+  color: #23272a;
+}
+
+button.btn-browser {
   background-color: #23272a;
   color: #fff;
 }
 
-button.btn-browser {
-  background-color: #fff;
+main {
+  margin-top: 40px;
+}
+
+.main-content section {
+  display: flex;
+  height: 573px;
+  color: #23272a;
+}
+
+main .main-content section h2 {
+  font-weight: bold !important;
+  font-family: "Inter", sans-serif;
+}
+
+.main-content .ultima h2 {
+  font-family: "Luckiest Guy", sans-serif;
+  font-weight: bold !important;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+
+footer {
+  background-color: #23272a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .header-buttons {
+    gap: 10px;
+  }
+
+  button {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+
+  .main-content {
+    align-items: center;
+  }
+
+  .main-content section {
+    flex-wrap: wrap;
+  }
+
+  .main-content .ultima {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .main-content .ultima h2 {
+    margin-bottom: 30px;
+  }
+
+  .main-content section img {
+    width: 379px;
+    height: 252px;
+  }
+  .main-content section h2 {
+    padding: 0 30px;
+  }
+  .main-content section p {
+    padding: 0 30px;
+  }
+  .main-content img {
+    padding: 15px;
+  }
+  footer {
+    height: 140px;
+  }
+  footer img {
+    width: 162px;
+    height: 45px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-content {
+    margin: 50px 250px;
+    text-align: center;
+  }
+
+  .header-content h1 {
+    font-size: 56px;
+    text-align: center;
+  }
+
+  .header-buttons {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  button {
+    width: fit-content;
+    flex: none;
+  }
+  .main-content section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-content .segunda {
+    flex-direction: row-reverse;
+  }
+
+  .main-content .ultima {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .main-content section div {
+    margin-top: 30px;
+    height: 374px;
+    width: 348px;
+  }
+
+  .main-content .ultima div {
+    width: 802px;
+  }
+
+  .main-content .ultima div h2 {
+    margin: 0 0 30px;
+    padding: 0 50px;
+  }
+  .main-content h2 {
+    font-size: 40px;
+  }
+  .main-content img {
+    width: 607px;
+    height: 394px;
+  }
+  footer {
+    height: 140px;
+  }
+  footer img {
+    width: 230px;
+    height: 63px;
+  }
 }
