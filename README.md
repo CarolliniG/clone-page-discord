@@ -135,22 +135,7 @@ cd clone-page-discord
 - ✅ Skip links
 - ✅ Área de toque mínima (44px)
 
-## 🚀 **Próximos Passos**
 
-### **Funcionalidades para Implementar:**
-
-- [ ] Mais seções de conteúdo
-- [ ] Galeria de imagens
-- [ ] Formulário de contato
-- [ ] Testes automatizados
-- [ ] PWA (Progressive Web App)
-
-### **Melhorias Técnicas:**
-
-- [ ] CSS-in-JS ou CSS Modules
-- [ ] Build process com Webpack/Vite
-- [ ] TypeScript
-- [ ] Framework (React/Vue/Svelte)
 
 ## 📚 **Recursos de Aprendizado**
 
@@ -187,11 +172,4 @@ Este é um projeto de estudo, mas sugestões são bem-vindas!
 Este projeto é apenas para fins educacionais. O design e marca Discord pertencem à Discord Inc.
 
 ## 👨‍💻 **Autor**
-
-Desenvolvido como projeto de estudo para aprender desenvolvimento web responsivo com abordagem Mobile First.
-
----
-
-**🎯 Objetivo:** Dominar as melhores práticas de desenvolvimento web responsivo, começando sempre pelo mobile e expandindo para dispositivos maiores.
-
-**💡 Dica:** Sempre teste primeiro em dispositivos móveis e depois expanda para telas maiores!
+Feito com 💙 por Carollini Gimenes
